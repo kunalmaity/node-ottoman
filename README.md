@@ -15,7 +15,7 @@ Source - http://github.com/couchbaselabs/node-ottoman
 Ottoman is not yet published to npm, to install the development version
 directly from GitHub, run:
 ```
-npm install ottoman
+npm install ottoman-in
 ```
 
 
