@@ -1,0 +1,39 @@
+{
+  "description": "ODM for Couchbase Node.js driver. This a custom version for $in enhancement based on http://github.com/couchbaselabs/node-ottoman.git",
+  "keywords": [
+    "couchbase",
+    "odm",
+    "nosql",
+    "json",
+    "document"
+  ],
+  "main": "./lib/ottoman",
+  "license": "Apache2",
+  "name": "ottoman",
+  "scripts": {
+    "test": "eslint ./lib && istanbul cover ./node_modules/mocha/bin/_mocha -- test/*.test.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "jsonpath": "~0.2.2",
+    "lodash": "^4.15.0",
+    "lodash-deep": "^2.0.0",
+    "uuid": "~2.0.1"
+  },
+  "optionalDependencies": {
+    "couchbase": "~2.4.1"
+  },
+  "devDependencies": {
+    "chai": "~3.3.0",
+    "eslint": "^2.9.0",
+    "ink-docstrap": "git+https://github.com/brett19/docstrap.git#master",
+    "istanbul": "~0.3.21",
+    "jsdoc": "~3.3.0-alpha9",
+    "mocha": "~2.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/couchbaselabs/node-ottoman.git"
+  },
+  "version": "1.0.5"
+}
