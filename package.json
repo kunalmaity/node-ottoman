@@ -9,7 +9,7 @@
   ],
   "main": "./lib/ottoman",
   "license": "Apache2",
-  "name": "ottoman",
+  "name": "ottoman-in",
   "scripts": {
     "test": "eslint ./lib && istanbul cover ./node_modules/mocha/bin/_mocha -- test/*.test.js"
   },
