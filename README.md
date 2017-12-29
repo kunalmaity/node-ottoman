@@ -1,6 +1,6 @@
 # Ottoman.js (Node.js ODM for Couchbase)
 
-Ottoman is a ODM built for Couchbase and Node.js.  Here in this repo only $in enhancement is there. All other are exactly same as below original souce
+Ottoman is a ODM built for Couchbase and Node.js.  Here in this repo only $in, $lt, $gt enhancement is there. All other are exactly same as below original souce
 
 Source - http://github.com/couchbaselabs/node-ottoman
 
